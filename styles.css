@@ -3,16 +3,14 @@
 	margin:0px;
 	padding:0px;
 }
-.center{
+
+.box{
 	position:absolute;
 	top:50%;
 	left:50%;
-}
-.pulse{
 	width:100px;
 	height:100px;
 	background-color:red;
-	
 	animation: pulse 1000ms ease-in-out infinite;
 }
 
