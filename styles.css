@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+}
+.center{
+	position:absolute;
+	top:50%;
+	left:50%;
+}
+.pulse{
+	width:100px;
+	height:100px;
+	background-color:red;
+	
+	animation: pulse 1000ms ease-in-out infinite;
+}
+
+@keyframes pulse{
+
+	0%{
+		
+		box-shadow: 0 0 0 0 red;
+	}
+	100%{
+		
+		box-shadow: 0 0 0 4px red;
+	}
+}
